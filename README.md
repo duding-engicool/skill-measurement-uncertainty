@@ -21,6 +21,8 @@ measurement-uncertainty/
 ├── SKILL.md
 ├── README.md
 ├── references/
+│   ├── gum_methodology.md              # GUM 评定方法公开概述（A/B类、分布换算、合成、k）
+│   └── uncertainty_report_checklist.md # 评定报告规范要素核对清单
 └── scripts/
     └── build_report.py     # 双版报告生成器（含内置小样本）
 ```
@@ -42,4 +44,5 @@ python scripts/build_report.py --input result.json \
 ## 防幻觉声明
 
 - 不编造测量数据、校准不确定度、分布参数；缺失标注「待企业补充」。
+- 参考资料（`references/`）为 GUM 公开方法论概述，非标准原文；正式评定以官方版本及企业规范为准。
 - 最终评定须由授权计量人员确认，本技能为辅助计算与模板。
